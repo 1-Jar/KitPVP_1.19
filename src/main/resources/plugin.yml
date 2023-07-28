@@ -1,0 +1,19 @@
+name: KitPVP
+version: '${project.version}'
+main: it.leokotnia.KitPVP
+api-version: '1.20'
+load: STARTUP
+commands:
+  kit1:
+    description: Give the player the Normal kit.
+    aliases: kitnormal
+  kit2:
+    description: Give the player the CrystalPVP kit.
+    aliases: kitcrystalpvp
+    permission: kitpvp.vip
+  kitpvp:
+    description: INFO of the plugin...
+  kits:
+    description: Kits available
+    aliases: kit
+    permission: kitpvp.vip1
