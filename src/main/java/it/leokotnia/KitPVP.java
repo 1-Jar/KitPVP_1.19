@@ -35,10 +35,10 @@ public class KitPVP extends JavaPlugin implements Listener {
 
             Player player = (Player) sender;
 
-            // Give the player a diamond sword
+    
             player.getInventory().addItem(new ItemStack(Material.DIAMOND_SWORD));
 
-            // Give the player 16 golden apples
+          
             player.getInventory().addItem(new ItemStack(Material.GOLDEN_APPLE, 16));
 
             player.getInventory().addItem(new ItemStack(Material.BOW));
@@ -50,7 +50,7 @@ public class KitPVP extends JavaPlugin implements Listener {
             player.getInventory().setLeggings(new ItemStack(Material.DIAMOND_LEGGINGS));
             player.getInventory().setBoots(new ItemStack(Material.DIAMOND_BOOTS));
 
-            // Give the player a diamond axe
+           
             player.getInventory().addItem(new ItemStack(Material.DIAMOND_AXE));
 
             player.sendMessage("You have received the Normal Kit!");
